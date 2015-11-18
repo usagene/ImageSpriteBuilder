@@ -1,0 +1,14 @@
+{
+  "name": "image-sprite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "http-server -a localhost -p 9999 -c-1"
+  },
+  "devDependencies": {
+    "node-sprite-generator": "^0.9.0"
+  }
+}
