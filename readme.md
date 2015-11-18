@@ -1,6 +1,6 @@
 ## Setup
 1. Install GraphicsMagick from http://www.graphicsmagick.org/
-2. Open command prompt from the root folder
+2. Open command prompt from the folder contains build.js
 3. Run 'npm install' to resolve all the package dependencies
 
 ## File organization
@@ -10,6 +10,9 @@
 ## Generate Sprite
 1. Run 'node build sprite.png' from the folder where build.js locates, 'sprite.png' is the sprite name
 2. You shall see 'Sprite generated' message in the console
+
+## Generate sprite with scale
+The steps are same to Generate Sprite, in the 1st step, instead of calling 'node build sprite.png', you can do 'node build sprite.png 0.5'. The sprite image will be scaled to 50% of original size.
 
 ## Preview Sprite Images
 1. Open dist/index.html
