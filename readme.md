@@ -17,6 +17,7 @@
 ```
 node build sprite.png
 ```
+
 2. You shall see 'Sprite generated' message in the console
 
 ## Generate sprite with scale
