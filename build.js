@@ -16,6 +16,10 @@ nsg({
     stylesheetOptions: {
         spritePath: spritePath
     },
+    layout:'diagonal', //vertical, packed, horizontal, diagonal
+    layoutOptions: {
+        scaling: 1
+    },
     compositor: 'gm'
 }, function (err) {
     if(!err){
