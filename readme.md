@@ -12,13 +12,11 @@
 2. rename images with snake case convention, so that all the css classes will be in that format
 
 ## Generate Sprite
-1. Run below code from command prompt, where 'sprite.png' is the sprite name
+Run below code from command prompt, where 'sprite.png' is the sprite name. You shall see 'Sprite generated' message in the console.
 
 ```
 node build sprite.png
 ```
-
-2. You shall see 'Sprite generated' message in the console
 
 ## Generate sprite with scale
 The steps are same to Generate Sprite, in the 1st step, instead of calling 'node build sprite.png', you can do 'node build sprite.png 0.5'. The sprite image will be scaled to 50% of original size.
