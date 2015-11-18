@@ -1,4 +1,4 @@
 src/images/
 dist/
 node_modules
-buildScale.js
+./buildScale.js
