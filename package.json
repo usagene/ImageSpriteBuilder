@@ -6,6 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "prestart": "npm install http-server -g",
     "start": "http-server -a localhost -p 9999 -c-1"
   },
   "devDependencies": {
