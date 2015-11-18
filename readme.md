@@ -23,9 +23,19 @@ The steps are same to Generate Sprite, in the 1st step, instead of calling 'node
 
 ## Preview Sprite Images
 1. Open dist/index.html
-2. Drop the style link something like below, in the HEADER tag
+2. Drop the style link into HEADER tag and test your sprite image css classes with some DIVs as below:
 
 ```
-<link href="content/sprite.css" rel="stylesheet" type="text/css">
+<html>
+
+<head>
+	<link href="content/sprite.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="sprite-image1"></div>
+	<div class="sprite-image2"></div>
+</body>
+
+</html>
 ```
-3. Put a DIV tag with sprite css class, e.g. sprite-image1 and see if the image displayed is what you want.
