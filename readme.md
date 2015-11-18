@@ -1,5 +1,5 @@
 ## Setup
-1. Install GraphicsMagick from enclosed installer
+1. Install GraphicsMagick from http://www.graphicsmagick.org/
 2. Open command prompt from the root folder
 3. Run 'npm install' to resolve all the package dependencies
 

@@ -6,11 +6,11 @@ nsg({
         'src/images/*.jpg*',
         'src/images/*.jpeg*',
     ],
-    spritePath: 'dist/content/images/costar-products-sprite-scaled.png',
+    spritePath: 'dist/content/images/products-sprite-scaled.png',
     stylesheet: 'css',
     stylesheetPath: 'dist/content/sprite-scaled.css',
     stylesheetOptions: {
-        spritePath: '/content/images/costar-products-sprite.png'
+        spritePath: '/content/images/products-sprite-scaled.png'
     },
 	layoutOptions: {
 		scaling: 0.5
