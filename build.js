@@ -2,7 +2,8 @@ var nsg = require('node-sprite-generator'),
     // 1st arg is path to node, 2nd arg is cwd
     args = process.argv.slice(2),
     spriteName = args[0] || 'products-sprite.png',
-    spritePath = args.length > 1 ? args[1] : '/content/images/' + spriteName;
+    scale = args.length > 1 ? args[1] : 1,
+    spritePath = args.length > 2 ? args[2] : '/content/images/' + spriteName;
     
 nsg({
     src: [
@@ -16,9 +17,9 @@ nsg({
     stylesheetOptions: {
         spritePath: spritePath
     },
-    layout:'diagonal', //vertical, packed, horizontal, diagonal
+    layout:'packed', //vertical, packed, horizontal, diagonal
     layoutOptions: {
-        scaling: 1
+        scaling: scale
     },
     compositor: 'gm'
 }, function (err) {
