@@ -10,3 +10,8 @@
 ## Generate Sprite
 1. Run 'node build sprite.png' from the folder where build.js locates, 'sprite.png' is the sprite name
 2. You shall see 'Sprite generated' message in the console
+
+## Preview Sprites
+1. Open dist/index.html
+2. Drop the style link, e.g. <link href="content/sprite.css" rel="stylesheet" type="text/css"> in the HEADER tag
+3. Put a <DIV> tag with sprite css class, e.g. sprite-image1 and see if the image displayed is what you want.
