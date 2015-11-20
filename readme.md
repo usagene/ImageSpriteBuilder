@@ -9,7 +9,8 @@
 
 ## File organization
 1. Put source images underneath src/images folder
-2. rename images with snake case convention, so that all the css classes will be in that format
+2. Create dist/content/images folder
+3. rename images with snake case convention, so that all the css classes will be in that format
 
 ## Generate Sprite
 Run below code from command prompt, where 'sprite.png' is the sprite name. You shall see 'Sprite generated' message in the console.
